@@ -22,16 +22,19 @@ jobs:
     outputs:
       archive: '${{ steps.set-params.outputs.archive }}'
       name: '${{ steps.set-params.outputs.name }}'
+      repo: '${{ steps.set-params.outputs.repo }}'
 
     steps:
       - name: Set Project Params
         id: set-params
         run: |
-          NAME="$(basename $GITHUB_REPOSITORY)"
+          REPO="${GITHUB_REPOSITORY,,}"
+          NAME="$(basename $REPO)"
           ARCHIVE="$NAME-${{ inputs.tag }}.tar.xz"
 
           printf 'archive=%s\n' "$ARCHIVE" | tee -a $GITHUB_OUTPUT
           printf 'name=%s\n' "$NAME" | tee -a $GITHUB_OUTPUT
+          printf 'repo=%s\n' "$REPO" | tee -a $GITHUB_OUTPUT
 
   ship:
     runs-on: ubuntu-24.04
@@ -42,7 +45,7 @@ jobs:
       - uses: oras-project/setup-oras@v1
       - name: Fetch Build
         run: |
-          oras pull ghcr.io/${{ github.repository }}/${{ needs.setup.outputs.name }}:${{ inputs.tag }}
+          oras pull ghcr.io/${{ needs.setup.outputs.repo }}/${{ needs.setup.outputs.name }}:${{ inputs.tag }}
           tar xf "${{ needs.setup.outputs.archive }}"
 
       - name: CloudFlare Push
