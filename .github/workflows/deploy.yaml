@@ -1,0 +1,53 @@
+---
+name: Deploy Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Docker tag to deploy'
+        type: string
+        required: true
+  workflow_call:
+    inputs:
+      tag:
+        description: 'Docker tag to deploy'
+        type: string
+        required: true
+
+jobs:
+  setup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    outputs:
+      archive: '${{ steps.set-params.outputs.archive }}'
+      name: '${{ steps.set-params.outputs.name }}'
+
+    steps:
+      - name: Set Project Params
+        id: set-params
+        run: |
+          NAME="$(basename $GITHUB_REPOSITORY)"
+          ARCHIVE="$NAME-${{ inputs.tag }}.tar.xz"
+
+          printf 'archive=%s\n' "$ARCHIVE" | tee -a $GITHUB_OUTPUT
+          printf 'name=%s\n' "$NAME" | tee -a $GITHUB_OUTPUT
+
+  ship:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 1
+    needs:
+      - setup
+    steps:
+      - uses: oras-project/setup-oras@v1
+      - name: Fetch Build
+        run: |
+          oras pull ghcr.io/${{ github.repository }}/${{ needs.setup.outputs.name }}:${{ inputs.tag }}
+          tar xf "${{ needs.setup.outputs.archive }}"
+
+      - name: CloudFlare Push
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy --project-name=vox-docs ${{ needs.setup.outputs.name }}-${{ inputs.tag }}
