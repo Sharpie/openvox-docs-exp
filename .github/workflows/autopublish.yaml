@@ -1,0 +1,24 @@
+---
+name: Automatically publish new content
+
+on:
+  push:
+    paths:
+      - 'index.md'
+      - 'docs/**/*'
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yaml
+    with:
+      ref: '${{ github.sha }}'
+    permissions:
+      contents: read
+      packages: write
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/deploy.yaml
+    with:
+      tag: '${{ needs.build.outputs.tag }}'
+    secrets: inherit
