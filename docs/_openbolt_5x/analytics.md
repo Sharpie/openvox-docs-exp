@@ -1,3 +1,7 @@
+---
+title: Analytics
+layout: default
+---
 # Analytics
 
 Bolt collects data about how you use it to help the Bolt team make decisions

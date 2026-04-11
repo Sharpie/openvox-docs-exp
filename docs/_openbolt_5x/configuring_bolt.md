@@ -1,3 +1,7 @@
+---
+title: Configuring Bolt
+layout: default
+---
 # Configuring Bolt
 
 Bolt has many options and features that can be configured to suit your

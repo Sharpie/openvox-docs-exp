@@ -1,3 +1,7 @@
+---
+title: Running tasks
+layout: default
+---
 # Running tasks
 
 Bolt can run Puppet tasks on remote targets without requiring any Puppet

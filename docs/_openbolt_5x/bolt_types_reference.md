@@ -1,3 +1,7 @@
+---
+title: Data types
+layout: default
+---
 # Data types
 
 This page lists custom data types used in Bolt plans and their functions.

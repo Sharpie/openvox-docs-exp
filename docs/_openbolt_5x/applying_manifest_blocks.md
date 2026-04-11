@@ -1,3 +1,7 @@
+---
+title: Applying Puppet code
+layout: default
+---
 # Applying Puppet code
 
 You can use Bolt to apply blocks of Puppet code, called manifest blocks, to

@@ -1,3 +1,7 @@
+---
+title: Getting started with Bolt
+layout: default
+---
 # Getting started with Bolt
 
 Welcome to _Getting started with Bolt!_ Bolt is an open source orchestration

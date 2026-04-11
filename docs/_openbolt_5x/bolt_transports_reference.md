@@ -1,3 +1,7 @@
+---
+title: Transport configuration options
+layout: default
+---
 # Transport configuration options
 
 This page lists the configuration options that are available to each transport used by Bolt to connect

@@ -1,3 +1,7 @@
+---
+title: Writing plugins
+layout: default
+---
 # Writing plugins
 
 A plugin is a special task that Bolt loads from a module on each run. Before you

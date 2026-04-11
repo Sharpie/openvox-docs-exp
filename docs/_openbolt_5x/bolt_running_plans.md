@@ -1,3 +1,7 @@
+---
+title: Running plans
+layout: default
+---
 # Running plans
 
 Bolt plans allow you to tie together complex workflows that include multiple

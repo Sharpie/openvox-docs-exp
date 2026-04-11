@@ -1,3 +1,7 @@
+---
+title: Packaged modules
+layout: default
+---
 # Packaged modules
 
 The following modules are shipped with Bolt packages.

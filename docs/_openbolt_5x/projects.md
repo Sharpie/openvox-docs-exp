@@ -1,3 +1,7 @@
+---
+title: Bolt projects
+layout: default
+---
 # Bolt projects
 
 A Bolt project is a simple directory that serves as the launching point for

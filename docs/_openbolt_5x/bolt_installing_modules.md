@@ -1,3 +1,7 @@
+---
+title: Installing modules
+layout: default
+---
 # Installing modules
 
 When you use the Bolt command line to install a module, Bolt manages your

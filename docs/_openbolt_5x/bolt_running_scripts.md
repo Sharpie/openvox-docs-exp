@@ -1,3 +1,7 @@
+---
+title: Running scripts
+layout: default
+---
 # Running scripts
 
 When you run a script on a target, Bolt copies the script from your Bolt controller to a temporary

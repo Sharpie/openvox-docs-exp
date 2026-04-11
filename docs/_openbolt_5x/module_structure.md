@@ -1,3 +1,7 @@
+---
+title: Module structure
+layout: default
+---
 # Module structure
 
 Before Bolt can load content like tasks, plans, functions, classes and types,

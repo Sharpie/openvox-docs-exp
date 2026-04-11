@@ -1,3 +1,7 @@
+---
+title: Known issues
+layout: default
+---
 # Known issues
 
 ## `facts` task fails on Windows targets with Facter 3 installed

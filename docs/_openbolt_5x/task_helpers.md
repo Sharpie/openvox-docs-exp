@@ -1,3 +1,7 @@
+---
+title: Task helpers
+layout: default
+---
 # Task helpers
 
 Bolt ships with several libraries that can be used to help write tasks.

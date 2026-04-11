@@ -1,3 +1,7 @@
+---
+title: BoltSpec reference
+layout: default
+---
 # BoltSpec reference
 
 The `BoltSpec` helper library includes several functions to help write unit

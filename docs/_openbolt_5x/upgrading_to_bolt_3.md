@@ -1,3 +1,7 @@
+---
+title: Upgrading to Bolt 3.0
+layout: default
+---
 # Upgrading to Bolt 3.0
 
 Welcome to Bolt 3.0! This page contains a list of the most important things you

@@ -1,3 +1,7 @@
+---
+title: Connecting Bolt to PuppetDB
+layout: default
+---
 # Connecting Bolt to PuppetDB
 
 Configure Bolt to connect to PuppetDB.

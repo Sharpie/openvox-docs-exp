@@ -1,3 +1,7 @@
+---
+title: Wrapping a script in a plan
+layout: default
+---
 # Wrapping a script in a plan
 
 Running commands and scripts with Bolt is awesome, but at some point you might find yourself wanting

@@ -1,3 +1,7 @@
+---
+title: Setting up VS Code for Bolt
+layout: default
+---
 # Setting up VS Code for Bolt
 
 Bolt configuration and inventory files, as well as content such as plans and

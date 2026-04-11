@@ -1,3 +1,7 @@
+---
+title: Bolt Examples
+layout: default
+---
 # Bolt Examples
 
 Bolt lets you automate almost any task you can think of. These examples walk you through beginning

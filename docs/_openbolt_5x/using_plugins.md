@@ -1,3 +1,7 @@
+---
+title: Using plugins
+layout: default
+---
 # Using plugins
 
 Bolt supports the use of plugins to dynamically load information during a Bolt

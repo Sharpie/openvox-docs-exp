@@ -1,3 +1,7 @@
+---
+title: Testing plans
+layout: default
+---
 # Testing plans
 
 Bolt ships with a library of helpers, named `BoltSpec`, intended to be used for

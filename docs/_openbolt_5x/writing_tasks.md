@@ -1,3 +1,7 @@
+---
+title: Writing tasks
+layout: default
+---
 # Writing tasks
 
 Bolt tasks are similar to scripts, but they are kept in modules and can have

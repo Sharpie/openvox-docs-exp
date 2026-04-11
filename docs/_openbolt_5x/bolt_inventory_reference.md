@@ -1,3 +1,7 @@
+---
+title: "`inventory.yaml` fields"
+layout: default
+---
 # `inventory.yaml` fields
 
 Use an [inventory file](inventory_files.md) to store information about

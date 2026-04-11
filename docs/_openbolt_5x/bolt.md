@@ -1,3 +1,7 @@
+---
+title: Welcome to Puppet Bolt®
+layout: default
+---
 # Welcome to Puppet Bolt®
 
 Bolt is an open source orchestration tool that automates the manual work it

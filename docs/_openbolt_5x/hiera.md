@@ -1,3 +1,7 @@
+---
+title: Using Bolt with Hiera
+layout: default
+---
 # Using Bolt with Hiera
 
 Because Bolt uses Puppet as a library, it has access to Hiera. Hiera is a

@@ -1,3 +1,7 @@
+---
+title: Plan functions
+layout: default
+---
 # Plan functions
 
 Plans can use functions that are built into Bolt and Puppet, or custom

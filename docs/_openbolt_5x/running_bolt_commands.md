@@ -1,3 +1,7 @@
+---
+title: Run Bolt
+layout: default
+---
 # Run Bolt
 
 You can use Bolt commands to connect to targets and perform actions on

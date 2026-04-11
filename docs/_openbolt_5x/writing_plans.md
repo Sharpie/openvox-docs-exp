@@ -1,3 +1,7 @@
+---
+title: Writing plans in the Puppet language
+layout: default
+---
 # Writing plans in the Puppet language
 
 Bolt plans allow you to tie together complex workflows that include multiple

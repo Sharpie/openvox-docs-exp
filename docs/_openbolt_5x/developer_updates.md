@@ -1,3 +1,7 @@
+---
+title: Developer updates
+layout: default
+---
 # Developer updates
 
 Find out what the Bolt team is working on and why we're making the decisions

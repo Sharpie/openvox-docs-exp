@@ -1,3 +1,7 @@
+---
+title: Troubleshooting
+layout: default
+---
 # Troubleshooting
 
 ## Bolt can't find my task

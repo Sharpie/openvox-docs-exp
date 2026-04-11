@@ -1,3 +1,7 @@
+---
+title: Escalating privilege with Bolt
+layout: default
+---
 # Escalating privilege with Bolt
 
 By default, Bolt connects to, and executes on, remote systems as the same user.

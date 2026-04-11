@@ -1,3 +1,7 @@
+---
+title: Deploy a TIG stack with Bolt
+layout: default
+---
 # Deploy a TIG stack with Bolt
 
 In this guide, you'll use Bolt to configure and deploy a TIG stack. 

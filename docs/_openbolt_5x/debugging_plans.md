@@ -1,3 +1,7 @@
+---
+title: Debugging plans
+layout: default
+---
 # Debugging plans
 
 By default, Bolt does not print the result for each step of a plan to standard

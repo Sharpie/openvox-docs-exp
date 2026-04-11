@@ -1,3 +1,7 @@
+---
+title: Automating Windows targets
+layout: default
+---
 # Automating Windows targets
 
 Here are some common use cases that you can accomplish with Bolt on Windows targets.

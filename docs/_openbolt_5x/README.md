@@ -1,3 +1,7 @@
+---
+title: Bolt documentation
+layout: default
+---
 # Bolt documentation
 
 This directory contains the markdown files used to generate the official

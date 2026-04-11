@@ -1,3 +1,7 @@
+---
+title: "`bolt-defaults.yaml` options"
+layout: default
+---
 # `bolt-defaults.yaml` options
 
 This page lists the configuration options that are available in the `bolt-defaults.yaml` configuration file,

@@ -1,3 +1,7 @@
+---
+title: "\U0001F9EA Experimental features"
+layout: default
+---
 # 🧪 Experimental features
 
 Most larger Bolt features are released initially in an experimental or unstable

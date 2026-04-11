@@ -1,3 +1,7 @@
+---
+title: Run Bolt from a Docker image
+layout: default
+---
 # Run Bolt from a Docker image
 
 Bolt is available on Docker Hub, as an image called `puppet-bolt`.

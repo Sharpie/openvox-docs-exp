@@ -1,3 +1,7 @@
+---
+title: Bolt versioning
+layout: default
+---
 # Bolt versioning
 
 Bolt follows [semantic versioning](https://semver.org/) guidelines.

@@ -1,3 +1,7 @@
+---
+title: JSON output
+layout: default
+---
 # JSON output
 
 Bolt output can be returned as JSON by specifying the `--format json`

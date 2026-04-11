@@ -1,3 +1,7 @@
+---
+title: Writing plans in YAML
+layout: default
+---
 # Writing plans in YAML
 
 YAML plans run a list of steps in order, which allows you to define simple

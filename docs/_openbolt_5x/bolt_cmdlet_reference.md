@@ -1,3 +1,7 @@
+---
+title: PowerShell cmdlets
+layout: default
+---
 # PowerShell cmdlets
 
 To use the PuppetBolt PowerShell module, see the [installation

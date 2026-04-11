@@ -1,3 +1,7 @@
+---
+title: Logs
+layout: default
+---
 # Logs
 
 Bolt supports multiple log levels. You can configure the log level from the CLI,

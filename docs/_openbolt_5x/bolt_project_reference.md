@@ -1,3 +1,7 @@
+---
+title: "`bolt-project.yaml` options"
+layout: default
+---
 # `bolt-project.yaml` options
 
 This page lists the configuration options that are available in the `bolt-project.yaml`.

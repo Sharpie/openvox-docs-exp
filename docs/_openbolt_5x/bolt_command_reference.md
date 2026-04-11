@@ -1,3 +1,7 @@
+---
+title: "*nix shell commands"
+layout: default
+---
 # *nix shell commands
 
 ## Command syntax

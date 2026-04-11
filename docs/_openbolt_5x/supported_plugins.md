@@ -1,3 +1,7 @@
+---
+title: Supported plugins
+layout: default
+---
 # Supported plugins
 
 The following plugins are supported and maintained by Bolt. Supported plugins

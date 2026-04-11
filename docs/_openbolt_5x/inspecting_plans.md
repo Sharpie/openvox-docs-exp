@@ -1,3 +1,7 @@
+---
+title: Inspecting plans
+layout: default
+---
 # Inspecting plans
 
 Before you run a plan in your environment, inspect the plan to determine what

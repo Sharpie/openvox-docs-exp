@@ -1,3 +1,7 @@
+---
+title: Inventory files
+layout: default
+---
 # Inventory files
 
 Use an inventory file to store information about your targets, control how Bolt

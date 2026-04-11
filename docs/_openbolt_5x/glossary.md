@@ -1,3 +1,7 @@
+---
+title: Glossary
+layout: default
+---
 # Glossary
 
 Definitions of terms used in Bolt documentation.

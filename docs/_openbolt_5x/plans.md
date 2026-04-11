@@ -1,3 +1,7 @@
+---
+title: Orchestrating workflows with plans
+layout: default
+---
 # Orchestrating workflows with plans
 
 Plans are sets of tasks that can be combined with other logic. This allows you

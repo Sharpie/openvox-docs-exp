@@ -1,3 +1,7 @@
+---
+title: Modules overview
+layout: default
+---
 # Modules overview
 
 Modules are directories that contain Puppet code designed to solve a specific

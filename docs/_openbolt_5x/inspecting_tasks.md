@@ -1,3 +1,7 @@
+---
+title: Inspecting tasks
+layout: default
+---
 # Inspecting tasks
 
 Before you run a task in your environment, inspect the task to determine what

@@ -1,3 +1,7 @@
+---
+title: Run Bolt on network devices
+layout: default
+---
 # Run Bolt on network devices
 
 You can run Bolt commands that target network devices in order to configure, provision, and make

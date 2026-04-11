@@ -1,3 +1,7 @@
+---
+title: Installing Bolt
+layout: default
+---
 # Installing Bolt
 
 Packaged versions of Bolt are available for several Linux distributions, macOS,
