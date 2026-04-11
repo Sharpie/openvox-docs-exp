@@ -1,2 +1,5 @@
-- title: OpenFact 5.x
+- title: openfact 5.x
   collection: openfact_5x
+
+- title: openvoxdb 8.x
+  collection: openvoxdb_8x

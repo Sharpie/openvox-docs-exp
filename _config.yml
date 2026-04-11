@@ -34,3 +34,10 @@ collections:
   openfact_5x:
     output: true
     permalink: '/openfact/5.x/:path.html'
+
+  openvoxdb_latest:
+    output: true
+    permalink: '/openvoxdb/latest/:path.html'
+  openvoxdb_8x:
+    output: true
+    permalink: '/openvoxdb/8.x/:path.html'

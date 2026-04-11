@@ -15,4 +15,8 @@ features:
     title: OpenFact
     details: Discover system attributes such as hardware details, network settings, OS type and version, and more.
     link: openfact/latest/
+  - icon: 💾
+    title: OpenVox DB
+    details: OpenVoxDB is the fast, scalable, and reliable data warehouse for OpenVox.
+    link: openvoxdb/latest/
 ---
