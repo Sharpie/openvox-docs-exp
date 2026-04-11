@@ -25,3 +25,12 @@ jekyll_vitepress:
   # Disabled as it adds extra size to generated HTML pages.
   copy_page:
     enabled: false
+
+collections_dir: docs
+collections:
+  openfact_latest:
+    output: true
+    permalink: '/openfact/latest/:path.html'
+  openfact_5x:
+    output: true
+    permalink: '/openfact/5.x/:path.html'
