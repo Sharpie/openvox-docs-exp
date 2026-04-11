@@ -15,6 +15,10 @@ features:
     title: OpenFact
     details: Discover system attributes such as hardware details, network settings, OS type and version, and more.
     link: openfact/latest/
+  - icon: ⚡️
+    title: OpenBolt
+    details: OpenBolt is an open source orchestration tool that automates the manual work it takes to maintain your infrastructure.
+    link: openbolt/latest/
   - icon: 💾
     title: OpenVox DB
     details: OpenVoxDB is the fast, scalable, and reliable data warehouse for OpenVox.

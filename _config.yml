@@ -28,6 +28,13 @@ jekyll_vitepress:
 
 collections_dir: docs
 collections:
+  openbolt_latest:
+    output: true
+    permalink: '/openbolt/latest/:path.html'
+  openbolt_5x:
+    output: true
+    permalink: '/openbolt/5.x/:path.html'
+
   openfact_latest:
     output: true
     permalink: '/openfact/latest/:path.html'
