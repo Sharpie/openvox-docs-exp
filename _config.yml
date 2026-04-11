@@ -1,0 +1,27 @@
+---
+title: OpenVox Documentation
+description: Documentation for various OpenVox Projects.
+
+lang: en-US
+timezone: UTC
+
+theme: jekyll-vitepress-theme
+plugins:
+  - jekyll-vitepress-theme
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+jekyll_vitepress:
+  branding:
+    logo:
+      default: 'https://github.com/voxpupuli/logos/blob/master/images/OpenVox/Sticker/HexagonSticker.svg?raw=true'
+      alt: OpenVox Automation Framework
+  # Disabled as it adds extra size to generated HTML pages.
+  copy_page:
+    enabled: false
