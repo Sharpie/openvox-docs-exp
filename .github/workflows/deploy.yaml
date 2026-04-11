@@ -42,7 +42,7 @@ jobs:
     needs:
       - setup
     steps:
-      - uses: oras-project/setup-oras@v1
+      - uses: oras-project/setup-oras@v2
       - name: Fetch Build
         run: |
           oras pull ghcr.io/${{ needs.setup.outputs.repo }}/${{ needs.setup.outputs.name }}:${{ inputs.tag }}

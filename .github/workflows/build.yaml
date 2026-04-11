@@ -80,7 +80,7 @@ jobs:
 
           tar -cJf "$ARCHIVE" "$root_dir"
 
-      - uses: oras-project/setup-oras@v1
+      - uses: oras-project/setup-oras@v2
       - name: ORAS Login
         run: |
           printf '%s\n' "${{ secrets.GITHUB_TOKEN }}" | oras login ghcr.io -u github
