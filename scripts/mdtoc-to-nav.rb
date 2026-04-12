@@ -23,6 +23,7 @@ md_block.each_line do |line|
     text = $1
     link = $2
       .sub(/\{\{puppetdb\}\}\//, '')
+      .sub(/\{\{puppet\}\}\//, '')
 
     current_group['items'] << { 'text' => text, 'link' => link }
   end

@@ -51,6 +51,17 @@ defaults:
 
   - scope:
       path: ""
+      type: "openvox_latest"
+    values:
+      nav: openvox_8x
+  - scope:
+      path: ""
+      type: "openvox_8x"
+    values:
+      nav: openvox_8x
+
+  - scope:
+      path: ""
       type: "openvoxdb_latest"
     values:
       nav: openvoxdb_8x
@@ -75,6 +86,13 @@ collections:
   openfact_5x:
     output: true
     permalink: '/openfact/5.x/:path.html'
+
+  openvox_latest:
+    output: true
+    permalink: '/openvox/latest/:path.html'
+  openvox_8x:
+    output: true
+    permalink: '/openvox/8.x/:path.html'
 
   openvoxdb_latest:
     output: true
