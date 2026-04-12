@@ -29,6 +29,17 @@ jekyll_vitepress:
 defaults:
   - scope:
       path: ""
+      type: "openfact_latest"
+    values:
+      nav: openfact_5x
+  - scope:
+      path: ""
+      type: "openfact_5x"
+    values:
+      nav: openfact_5x
+
+  - scope:
+      path: ""
       type: "openvoxdb_latest"
     values:
       nav: openvoxdb_8x
