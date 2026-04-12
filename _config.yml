@@ -40,6 +40,17 @@ defaults:
 
   - scope:
       path: ""
+      type: "openbolt_latest"
+    values:
+      nav: openbolt_5x
+  - scope:
+      path: ""
+      type: "openbolt_5x"
+    values:
+      nav: openbolt_5x
+
+  - scope:
+      path: ""
       type: "openvoxdb_latest"
     values:
       nav: openvoxdb_8x
