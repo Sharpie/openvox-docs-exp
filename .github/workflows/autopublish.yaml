@@ -4,7 +4,11 @@ name: Automatically publish new content
 on:
   push:
     paths:
+      - '_config.yml'
       - 'index.md'
+      - '_data/**/*'
+      - '_includes/**/*'
+      - '_layouts/**/*'
       - 'docs/**/*'
 
 jobs:
