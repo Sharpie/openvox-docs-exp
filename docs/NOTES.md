@@ -3,7 +3,7 @@ This directory contains two items:
   - Subdirectories that represent the documentation set of a particular
     release series of an OpenVox project.
 
-  - `*_latest` symlinks that point the the "latest" active release of a
+  - `*_latest` symlinks that point to the "latest" active release of a
     project.
 
 The documentation sets have been imported from specific snapshots of
@@ -14,6 +14,8 @@ various project repositories:
   - `_openbolt_5x`: https://github.com/OpenVoxProject/openbolt/tree/e80d5cf/documentation
 
   - `_openvoxdb_5x`: https://github.com/OpenVoxProject/openvoxdb/tree/c84aa85/documentation
+
+  - `_openvox_8x`: https://github.com/OpenVoxProject/openvox-docs/tree/a9dfea53/source/puppet/5.5
 
 > [!NOTE]
 >
