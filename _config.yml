@@ -26,6 +26,18 @@ jekyll_vitepress:
   copy_page:
     enabled: false
 
+defaults:
+  - scope:
+      path: ""
+      type: "openvoxdb_latest"
+    values:
+      nav: puppetdb_8x
+  - scope:
+      path: ""
+      type: "openvoxdb_8x"
+    values:
+      nav: puppetdb_8x
+
 collections_dir: docs
 collections:
   openbolt_latest:
