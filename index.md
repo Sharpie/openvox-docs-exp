@@ -23,6 +23,10 @@ features:
     title: OpenBolt
     details: OpenBolt is an open source orchestration tool that automates the manual work it takes to maintain your infrastructure.
     link: openbolt/latest/
+  - icon: 📡
+    title: OpenVox Server
+    details: OpenVox Server implements OpenVox's server-side components for managing agents in a distributed, service-oriented architecture.
+    link: openvox-server/latest/
   - icon: 💾
     title: OpenVox DB
     details: OpenVoxDB is the fast, scalable, and reliable data warehouse for OpenVox.

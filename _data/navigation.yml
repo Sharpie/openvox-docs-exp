@@ -7,6 +7,9 @@
 - title: OpenBolt
   url: /openbolt/latest/
   collections: [openbolt_latest, openbolt_5x]
+- title: OpenVox Server
+  url: /openvox-server/latest/
+  collections: [openvox-server_latest, openvox-server_5x]
 - title: OpenVoxDB
   url: /openvoxdb/latest/
   collections: [openvoxdb_latest, openvoxdb_5x]
