@@ -15,6 +15,8 @@ various project repositories:
 
   - `_openvoxdb_5x`: https://github.com/OpenVoxProject/openvoxdb/tree/c84aa85/documentation
 
+  - `_openvox-server_8x`: https://github.com/OpenVoxProject/openvox-server/tree/@ab7dcd74/documentation
+
   - `_openvox_8x`: https://github.com/OpenVoxProject/openvox-docs/tree/a9dfea53/source/puppet/5.5
 
 > [!NOTE]
