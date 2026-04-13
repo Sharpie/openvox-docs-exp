@@ -25,6 +25,11 @@ jekyll_vitepress:
   # Disabled as it adds extra size to generated HTML pages.
   copy_page:
     enabled: false
+  # Disable previous/next links at the bottom of the page as
+  # they don't match the order of the outlines defined in
+  # `_data/nav/*.yaml` and thus cause confusion.
+  doc_footer:
+    enabled: false
 
 defaults:
   - scope:

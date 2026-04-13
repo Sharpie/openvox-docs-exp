@@ -32,3 +32,12 @@ features:
     details: OpenVoxDB is the fast, scalable, and reliable data warehouse for OpenVox.
     link: openvoxdb/latest/
 ---
+
+> [!NOTE]
+>
+> For entertainment purposes only.
+>
+> Most of the documentation content presented here is outdated or has
+> broken links or other defects. The purpose of this website is to
+> experiment with how various tools and themes affect the presentation
+> of Markdown content.
