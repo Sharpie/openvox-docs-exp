@@ -41,6 +41,10 @@ jobs:
     timeout-minutes: 1
     needs:
       - setup
+    permissions:
+      id-token: write
+      pages: write
+
     steps:
       - uses: oras-project/setup-oras@v2
       - name: Fetch Build
@@ -54,3 +58,12 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy --project-name=vox-docs ${{ needs.setup.outputs.name }}-${{ inputs.tag }}
+
+
+      - name: Prepare GH Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ${{ needs.setup.outputs.name }}-${{ inputs.tag }}
+
+      - name: Deploy to GH Pages
+        uses: actions/deploy-pages@v5
